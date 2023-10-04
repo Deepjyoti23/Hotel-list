@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import PropertyList from "./components/PropertyList";
+// import PropertyCard from "./components/PropertyCard";
+import PropertyDetails from "./components/PropertyDetail";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Routes>
+      <Route index element={<Navigate replace to="property" />} />
+      <Route path="property" element={<PropertyList />} />
+      <Route path="property/:id" element={<PropertyDetails />} />
+    </Routes>
+    </BrowserRouter>
+  )
 }
-
-export default App;
