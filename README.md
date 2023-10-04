@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm srun server`
+
+Runs the json-server 
+Open [http://localhost:3000/hotel](http://localhost:3000/hotel) to view server data in your browser.
+First run server to display data
+
 ### `npm start`
 
 Runs the app in the development mode.\
