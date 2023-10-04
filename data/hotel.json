@@ -10,8 +10,10 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"rent",
+            "popular":"yes",
             "area":732,
-            "price":7255,
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -22,8 +24,10 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"no",
+            "purpose":"sale",
             "area":732,
-            "price":7255,
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -33,9 +37,11 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
             "bed":4,
+            "popular":"yes",
             "bath":1,
+            "purpose":"rent",
             "area":732,
-            "price":7255,
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -46,8 +52,10 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"sale",
+            "popular":"no",
             "area":732,
-            "price":7255,
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -59,7 +67,9 @@
             "bed":4,
             "bath":1,
             "area":732,
-            "price":7255,
+            "popular":"yes",
+            "purpose":"sale",
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -70,8 +80,10 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
             "area":732,
-            "price":7255,
+            "purpose":"rent",
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -82,8 +94,10 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
+            "purpose":"sale",
             "area":732,
-            "price":7255,
+            "price":"7,255",
             "city": "New York"
         },
         {
@@ -94,9 +108,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"rent",
+            "popular":"no",
             "area":732,
             "city": "New York",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"1119",
@@ -106,9 +122,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"sale",
+            "popular":"no",
             "area":732,
             "city": "New York",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2221",
@@ -118,9 +136,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"sale",
+            "popular":"no",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2222",
@@ -130,9 +150,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
+            "purpose":"sale",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2223",
@@ -142,9 +164,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
+            "purpose":"rent",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2224",
@@ -154,9 +178,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"sale",
+            "popular":"no",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2225",
@@ -165,10 +191,12 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
             "bed":4,
+            "popular":"yes",
+            "purpose":"rent",
             "bath":1,
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2226",
@@ -177,10 +205,12 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
             "bed":4,
+            "popular":"no",
             "bath":1,
             "area":732,
+            "purpose":"rent",
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2227",
@@ -188,11 +218,13 @@
             "location":"Pecan St.",
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
+            "purpose":"sale",
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"yes",
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2228",
@@ -202,9 +234,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
+            "purpose":"rent",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"2229",
@@ -214,9 +248,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"rent",
             "area":732,
             "city": "Mumbai",
-            "price":7255
+            "popular":"no",
+            "price":"7,255"
         },
         {
             "id":"3331",
@@ -227,8 +263,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "purpose":"rent",
+            "popular":"yes",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3332",
@@ -238,9 +276,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"no",
+            "purpose":"sale",
             "area":732,
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3333",
@@ -251,8 +291,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "purpose":"rent",
+            "popular":"yes",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3334",
@@ -261,10 +303,12 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
             "bed":4,
+            "purpose":"sale",
             "bath":1,
             "area":732,
+            "popular":"no",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3335",
@@ -275,8 +319,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "purpose":"rent",
+            "popular":"yes",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3336",
@@ -285,10 +331,12 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "room":3,
             "bed":4,
+            "purpose":"sale",
             "bath":1,
             "area":732,
+            "popular":"yes",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3337",
@@ -298,9 +346,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "purpose":"rent",
+            "popular":"yes",
             "area":732,
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3338",
@@ -311,8 +361,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"no",
+            "purpose":"sale",
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"3339",
@@ -322,9 +374,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"no",
+            "purpose":"rent",
             "area":732,
             "city": "Paris",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4441",
@@ -335,9 +389,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"no",
             "purpose":"rent",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4442",
@@ -348,9 +403,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"yes",
             "purpose":"rent",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4443",
@@ -360,10 +416,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"yes",
             "area":732,
             "purpose":"sale",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4444",
@@ -371,12 +428,13 @@
             "hotelName":"Regal North Hills - 4150 Main at North Hills St, Releigh",
             "image":"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1VFUqIPq_5E/v0/-1x-1.jpg",
             "room":3,
+            "popular":"no",
             "bed":4,
             "bath":1,
             "area":732,
             "purpose":"rent",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4445",
@@ -387,9 +445,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"yes",
             "purpose":"sale",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4446",
@@ -399,10 +458,11 @@
             "room":3,
             "bed":4,
             "bath":1,
+            "popular":"no",
             "purpose":"rent",
             "area":732,
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4447",
@@ -413,9 +473,10 @@
             "bed":4,
             "bath":1,
             "area":732,
+            "popular":"yes",
             "purpose":"sale",
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4448",
@@ -426,9 +487,10 @@
             "bed":4,
             "bath":1,
             "purpose":"rent",
+            "popular":"no",
             "area":732,
             "city": "London",
-            "price":7255
+            "price":"7,255"
         },
         {
             "id":"4449",
@@ -439,9 +501,10 @@
             "bed":4,
             "bath":1,
             "purpose":"rent",
+            "popular":"yes",
             "area":732,
             "city": "London",
-            "price":7255
+            "price":"7,255"
         }
 
     ]

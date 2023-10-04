@@ -18,6 +18,7 @@ function PropertyCard({ property }) {
     area,
     price,
     purpose,
+    popular,
   } = property;
   // console.log(id);
   return (
@@ -31,15 +32,15 @@ function PropertyCard({ property }) {
           />
           <button
             className="absolute top-4 left-2 inline-block text-sm rounded-full font-bold 
-           tracking-wide text-blue-700 bg-white mx-4 my-2
-          border-2 border-blue-700
-           px-4 py-2"
+           tracking-wide text-blue-700 bg-white mx-4 my-2 px-4 py-2"
           >
             {purpose === "rent" ? "For Rent" : "For Sale"}
           </button>
-          <button className="absolute bottom-0 left-0 w-1/4 text-sm rounded font-bold text-white bg-blue-700 px-6 py-1 pr-[77px] shadow-lg">
-            Popular
-          </button>
+          {popular === "yes" && (
+            <button className="absolute bottom-0 left-0 w-1/4 text-sm rounded font-bold text-white bg-blue-700 px-6 py-1 pr-[77px] shadow-lg">
+              Popular
+            </button>
+          )}
           <button className="absolute top-4 right-4 bg-white p-2 rounded-full">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -106,9 +107,9 @@ function PropertyCard({ property }) {
             </p>
             <button
               className="inline-block text-sm rounded-full font-bold 
-           tracking-wide text-blue-700 transition-colors duration-300 mx-4 my-2
-         hover:text-blue-700 border-2 border-blue-700 focus:text-blue-700 disabled:cursor-not-allowed 
-           px-4 py-2 justify-end"
+                tracking-wide text-blue-700 transition-colors duration-300 mx-4 my-2
+              hover:text-blue-700 border-2 border-blue-700 focus:text-blue-700 disabled:cursor-not-allowed 
+                px-4 py-2 justify-end"
             >
               Read More
             </button>

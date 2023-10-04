@@ -37,7 +37,7 @@ function PropertyListing() {
 
   return (
     <>
-      <div className="container mx-auto px-[15%]">
+      <div className="container mx-auto px-[15%] font-sans">
         <Heading />
         <CityTabs />
         <div className="grid grid-cols-3 gap-4">
@@ -51,7 +51,7 @@ function PropertyListing() {
               <button
                 className="flex items-center gap-1 text-sm rounded-full font-bold 
               tracking-wide text-white mx-4 my-4
-              hover:bg-white hover:text-stone-800 bg-blue-700 disabled:cursor-not-allowed 
+              hover:bg-white hover:text-blue-700 hover:border-2 hover:border-blue-700 bg-blue-700 disabled:cursor-not-allowed 
               px-4 py-2"
                 onClick={() => setShowMore(true)}
               >
